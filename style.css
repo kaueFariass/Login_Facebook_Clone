@@ -14,7 +14,7 @@
 .clear{clear: both;}
 
 header{
-    background-color: #3b5998;
+    background-color: #1877f2;
     padding: 8px 0;
 }
 
@@ -47,20 +47,23 @@ form.form-login{
 .form-element input[type=password]{
     margin-top: 5px;
     border-radius: 4px;
+    border: 0;
+    height: 22px;
+    padding-left: 3px;
 }
 
 .form-element input[type=submit]{
     cursor: pointer;
     border: 0;
-    background:  #4e6db1;
-    border:2px solid #3b5998;
+    background:  rgb(117, 161, 255);
+    border:2px solid #1877f2;
     color: white;
     padding: 3px 5px;
     border-radius: 10px;
 }
 
 .form-element input[type=submit]:hover{
-    background:#3b5998;
+    background:#1877f2;
 }
 
 section.main{
@@ -70,7 +73,7 @@ section.main{
 
 .img-pessoa{
     float: left;
-    width: 45%;
+    width: 60%;
 }
 
 .img-pessoa img{
@@ -78,7 +81,7 @@ section.main{
 }
 
 .abrir-conta{
-    width: 30%;
+    width: 40%;
     float: right;
 }
 
@@ -122,4 +125,23 @@ form.criar-conta input[type=text]{
     padding-left: 10px;
     border: 1px solid #a5dbff;
     border-radius: 10px;
+    font-size: 20px;
+}
+
+form.criar-conta input[type=submit]{
+    height: 40px;
+    background: #1877f2;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    max-width: 200px;
+    font-size: 19px;
+    border-radius: 10px;
+}
+
+form.criar-conta input[type=submit]:hover{
+    background: #a5dbff;
+    color: black;
+    border-color: #1877f2;
+    
 }
