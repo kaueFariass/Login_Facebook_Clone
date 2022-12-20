@@ -46,6 +46,7 @@ form.form-login{
 .form-element input[type=email],
 .form-element input[type=password]{
     margin-top: 5px;
+    border-radius: 4px;
 }
 
 .form-element input[type=submit]{
@@ -55,8 +56,70 @@ form.form-login{
     border:2px solid #3b5998;
     color: white;
     padding: 3px 5px;
+    border-radius: 10px;
 }
 
 .form-element input[type=submit]:hover{
     background:#3b5998;
+}
+
+section.main{
+    background: white;
+    padding: 40px 0;
+}
+
+.img-pessoa{
+    float: left;
+    width: 45%;
+}
+
+.img-pessoa img{
+    max-width: 100%;
+}
+
+.abrir-conta{
+    width: 30%;
+    float: right;
+}
+
+.abrir-conta h2{
+    color: black;
+    font-size: 35px;
+}
+
+.abrir-conta h3{
+    font-size: 19px;
+    color: rgb(30,30,30);
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+form.criar-conta{
+    margin-top: 10px;
+}
+
+.w50{
+    width: 50%;
+    padding: 0 5px;
+    float: left;
+}
+
+.w100{
+    width: 100%;
+    padding: 0 5px;
+    float: left;
+}
+
+form.criar-conta input{
+    width: 100%;
+    margin-top: 8px;
+}
+
+form.criar-conta input[type=email],
+form.criar-conta input[type=password],
+form.criar-conta input[type=text]{
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #a5dbff;
+    border-radius: 10px;
 }
