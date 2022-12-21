@@ -155,3 +155,41 @@ form .w100 h2{
 form select.nascimento{
     float: left;
 }
+
+.input-radio{
+    margin: 10px 10px;
+    float: left;
+}
+
+.input-radio h2{
+display: inline-block;
+
+}
+
+.input-radio input[type=radio]{
+    width: auto !important;
+    display: inline-block;
+}
+
+section.idiomas{
+    padding: 30px 0;
+    background-color: white;
+}
+
+section.idiomas .center{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;  
+}
+
+section.idiomas a {
+    padding-right: 10px;
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+section.idiomas a.selected-idioma{
+    color: #868686;
+}
