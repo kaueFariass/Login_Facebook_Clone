@@ -185,6 +185,12 @@ section.idiomas .center{
     border-bottom: 1px solid #ccc;  
 }
 
+section.idiomas input.mais {
+    border-radius: 8px;
+    border: #a5dbff solid 2.5px;
+    background-color: white;
+    font-size: 14px;
+}
 section.idiomas a {
     padding-right: 10px;
     font-size: 12px;
