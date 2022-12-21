@@ -145,3 +145,13 @@ form.criar-conta input[type=submit]:hover{
     border-color: #1877f2;
     
 }
+form .w100 h2{
+    margin-top: 10px;
+    color: rgb(92, 92, 92);;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+form select.nascimento{
+    float: left;
+}
